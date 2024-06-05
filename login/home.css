@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+body {
+    background-color: #91908c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    background: #fff;
+    backdrop-filter: blur(20px);
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.1),
+                -2px -0px 15px 2px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid rgb(153, 157, 158);
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: 800;
+}
+
+a {
+    color: #1e263a;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color .3s ease-in-out;
+}
+
+a:hover {
+    color: #122b71;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #1e263a;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #122b71;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer a {
+    color: #727374;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Center the Logout link */
+.logout-container {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+
+.logout-link {
+    color: #1e263a;
+    text-decoration: none;
+    font-weight: 700;
+    transition: color .3s ease-in-out;
+}
+
+.logout-link:hover {
+    color: #122b71;
+}
